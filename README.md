@@ -1,2 +1,2 @@
 # BayesianAlphabet
-Implementation of Bayesian Regression model from the "Bayesian Alphabet" family in Stan and Jags.
+Implementation of Bayesian Regression models from the "Bayesian Alphabet" family in Stan and Jags.
