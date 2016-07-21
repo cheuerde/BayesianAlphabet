@@ -83,7 +83,7 @@
 #' mod <- StanBR(y = wheat.Y[,1], Z = wheat.X)
 
 library(rstan)
-
+#' @export
 StanBR <- function(y, X = NULL, Z, model = "RidgeRegression", niter = 1000, burnin = 500, verbose = FALSE,
 		   priorscaleE = 10, priorscaleU = 5, chains = 1, ...) {
 
