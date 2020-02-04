@@ -174,7 +174,7 @@ JagsBayesRQ <- function(y, X = NULL, Z = NULL, Zq = NULL,  niter = 1000, burnin 
 	update(model, n.iter = burnin)
 
 	output = coda.samples(model = model,
-			      variable.names = c("pClust", "varA", "varE", "b", "u", "uq", "clust", "clustq"),
+			      variable.names = c("pClust", "varA", "varAq", "varE", "b", "u", "uq", "clust", "clustq"),
 			      n.iter = niter - burnin, thin = 1)
 
 	return(output)
